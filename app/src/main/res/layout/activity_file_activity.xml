@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientlogin"
+
+    android:layout_height="match_parent"
+    tools:context=".file_activity">
+
+
+
+    <ListView
+        android:id="@+id/serlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:footerDividersEnabled="true"
+        android:dividerHeight="5dp"
+        android:padding="10dp"
+        android:paddingTop="3dp"
+        android:scrollbars="none"
+        android:textColor="#FFFFE0"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+
+        android:id="@+id/sendbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="30dp"
+        android:fadingEdgeLength="@dimen/cardview_default_elevation"
+        android:outlineAmbientShadowColor="#9c27b0"
+        android:outlineSpotShadowColor="#9c27b0"
+        android:src="@drawable/sendbutton"
+
+        app:backgroundTint="#076585"
+        app:elevation="5dp"
+      android:alpha=".8"
+        app:maxImageSize="40dp"
+        app:tint="#ffffff" />
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/fbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="100dp"
+
+        android:fadingEdgeLength="@dimen/cardview_default_elevation"
+        android:outlineAmbientShadowColor="#9c27b0"
+        android:outlineSpotShadowColor="#9c27b0"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#364f6b"
+        app:elevation="5dp"
+
+        app:maxImageSize="40dp"
+        app:tint="#ffffff" />
+
+</FrameLayout>
+
+
+
+    <ListView
+        android:id="@+id/serlis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:divider="#FFFFE0"
+        android:dividerHeight="3dp"
+        android:padding="10dp"
+        android:paddingTop="3dp"
+        android:scrollbars="none"
+        android:textColor="#FFFFE0" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
